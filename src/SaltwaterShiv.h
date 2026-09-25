@@ -20,7 +20,8 @@ private:
     double duration;
     uint64_t manaCost;
     double cooldown;
-    
+
+
 };
 
 #endif

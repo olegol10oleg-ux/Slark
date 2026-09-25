@@ -95,4 +95,5 @@ void SaltwaterShiv::printStatus() const
     std::cout << "Mana Cost: " << manaCost << std::endl;
     std::cout << "Cooldown: " << cooldown << "s" << std::endl;
     std::cout << "--------------------------------" << std::endl;
+
 }
