@@ -4,7 +4,7 @@
 DarkPact::DarkPact(uint64_t startLevel)
 {
     name = "DARKPACT";
-    isReady = true;
+
 
     if (startLevel < 1)
         startLevel = 1;
