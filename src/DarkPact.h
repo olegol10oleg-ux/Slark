@@ -18,7 +18,6 @@ private:
     uint64_t selfDamage;
     uint64_t manaCost;
     double cooldown;
-    bool isReady;
 };
 
 

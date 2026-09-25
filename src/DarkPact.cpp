@@ -3,7 +3,7 @@
 
 DarkPact::DarkPact(uint64_t startLevel)
 {
-    name = "Dark Pact";
+    name = "DARKPACT";
     isReady = true;
 
     if (startLevel < 1)
@@ -85,5 +85,4 @@ void DarkPact::printStatus() const
     std::cout << "Mana Cost: " << manaCost << std::endl;
     std::cout << "Cooldown: " << cooldown << std::endl;
     std::cout << "--------------------------------" << std::endl;
-
 }
