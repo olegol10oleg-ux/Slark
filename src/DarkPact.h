@@ -21,4 +21,5 @@ private:
     bool isReady;
 };
 
+
 #endif
