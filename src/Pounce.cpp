@@ -47,11 +47,6 @@ Pounce::Pounce(uint64_t startLevel)
 
 void Pounce::upgrade()
 {
-    if (level >= 4)
-    {
-        std::cout << "MAX " << name << " is already at level 4!" << std::endl;
-        return;
-    }
 
     level = ++level;
 
