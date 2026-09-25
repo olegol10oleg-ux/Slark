@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(slark src/main.cpp
         src/DarkPact.cpp
-        src/DarkPact.h)
+        src/DarkPact.h
+        src/Pounce.cpp
+        src/Pounce.h)

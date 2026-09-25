@@ -3,7 +3,7 @@
 
 DarkPact::DarkPact(uint64_t startLevel)
 {
-    name = "Dark Pact";
+    name = "DARKPACT";
     isReady = true;
 
     if (startLevel < 1)
