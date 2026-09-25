@@ -54,6 +54,7 @@ void Pounce::upgrade()
 
     level = ++level;
 
+
     switch (level)
     {
         case 2:
