@@ -84,6 +84,7 @@ void SaltwaterShiv::upgrade()
     std::cout << "LEVEL UP " << name << " upgraded to Level " << level << "!";
 }
 
+
 void SaltwaterShiv::printStatus() const
 {
     std::cout << std::endl;
