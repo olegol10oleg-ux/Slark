@@ -1,6 +1,8 @@
 #include "DarkPact.h"
 #include "Pounce.h"
+#include "SaltwaterShiv.h"
 #include <iostream>
+
 
 int main()
 {
@@ -28,6 +30,18 @@ int main()
     {
         pounce1.upgrade();
         pounce1.printStatus();
+    }
+
+
+    SaltwaterShiv saltwaterShiv1(1);
+    SaltwaterShiv saltwaterShiv2(1);
+
+    saltwaterShiv1.printStatus();
+
+    for (int i = 0; i < 3; ++i)
+    {
+        saltwaterShiv1.upgrade();
+        saltwaterShiv1.printStatus();
     }
 
     return 0;
