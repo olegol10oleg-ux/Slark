@@ -9,4 +9,6 @@ add_executable(slark src/main.cpp
         src/Pounce.cpp
         src/Pounce.h
         src/SaltwaterShiv.cpp
-        src/SaltwaterShiv.h)
+        src/SaltwaterShiv.h
+        src/ShadowDance.cpp
+        src/ShadowDance.h)

@@ -3,7 +3,7 @@
 
 SaltwaterShiv::SaltwaterShiv(uint64_t startLevel)
 {
-    name = "SALTWATER SHIV";
+    name = "SALTWATER_SHIV";
 
     if (startLevel < 1)
         startLevel = 1;
