@@ -57,6 +57,7 @@ void ShadowDance::upgrade()
     std::cout << "LEVEL UP " << name << " upgraded to Level " << level << "!";
 }
 
+
 void ShadowDance::printStatus() const
 {
     std::cout << std::endl;
